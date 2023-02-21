@@ -63,3 +63,12 @@ h2{
     border-radius: 4px;
     
 }
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+#highscore-btn {
+    background: linear-gradient(90deg, #ffffbf 0%, #ffffbf 100%);
+}
+

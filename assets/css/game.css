@@ -10,3 +10,7 @@ body{
     font-size: 3rem;
     min-width: 80rem;
 }
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}

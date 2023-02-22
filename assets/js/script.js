@@ -3,3 +3,21 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
+
+let questions = [
+    {
+        question: 'What is the capital of Ireland?',
+        choice1: 'Dublin'
+        choice2: 'London'
+        choice3: 'Galway'
+        choice4: 'Belfast'
+        answer:2,
+
+    },
+]

@@ -66,5 +66,19 @@ background-color: green;
 background-color: red;
 }
 
+.start-btn, .next-btn {
+    font-size: ;
+    font-weight: bold;
+    padding: 10px 20px;
+}
 
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
 

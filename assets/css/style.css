@@ -16,6 +16,7 @@ body {
     background-color: aliceblue;
 }
 
+/* Add card effect to menu. */
 .container {
     width: 800px;
     max-width: 80%;
@@ -23,6 +24,13 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+}
+
+/* Arrange buttons for a grid display */
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
 
 h1{

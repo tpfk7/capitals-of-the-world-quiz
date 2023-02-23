@@ -72,13 +72,13 @@ background-color: red;
     padding: 10px 20px;
 }
 
-.controls{
+.controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hide{
+.hide {
     display: none;
 }
 

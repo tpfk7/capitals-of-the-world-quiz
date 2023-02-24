@@ -1,40 +1,50 @@
-const startButton = document.getElementById('start-btn');
-const questionContainerElement =document.getElementById('question-container');
+const continentBtns = document.querySelectorAll('.continent-btn');
+const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 
 // Makes questions random
-let shuffledQuestions, currentQuestionsIndex;
+let shuffledQuestions, currentQuestionIndex, questions;
 
-startButton.addEventListener('click', startGame);
+
+
+continentBtns.forEach(btn => {
+    btn.addEventListener('click', function () {
+        // let continent = btn.dataset.continent;
+        let continent = btn.id;
+        if (continent == 'europe') {
+            questions = europeQuestions;
+        } else if (continent == 'asia') {
+            questions = asiaQuestions;
+        }
+        startGame();
+    });
+});
+
+
 
 function startGame() {
     console.log('Started');
-    startButton.classList.add('hide');
-    shuffledQuestions = questions.sort(() => Math.random() - 0.5)
-    currentQuestionIndex = 0
-    questionContainerElement.classList.remove('hide')
-    setNextQuestion()
+    continentBtns.forEach(btn => {
+        btn.classList.add('hide');
+    });
+
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+    currentQuestionIndex = 0;
+    questionContainerElement.classList.remove('hide');
+    setNextQuestion();
 }
 
 function setNextQuestion() {
-    showQuestion(shuffledQuestions[currentQuestionsIndex])
+
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
 function showQuestion(question) {
-    questionElement.innerText = question.question
+
+    questionElement.innerText = question.question;
 }
 
 function selectAnswer() {
 
 }
-
-const questions =[
-    {
-        question: 'What is the capital of Ireland?',
-        answers:[
-            {text: 'Dublin', correct: true},
-            {text: 'Belfast', correct: false}
-        ]
-    },
-]

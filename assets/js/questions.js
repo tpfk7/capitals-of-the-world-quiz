@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 const asiaQuestions = [
     {
         question: 'What is the capital of Japan?',

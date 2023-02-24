@@ -8,7 +8,10 @@ const answerButtonsElement = document.getElementById('answer-buttons');
 // Makes questions random
 let shuffledQuestions, currentQuestionIndex, questions;
 
-
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++
+    setNextQuestion()
+})
 
 continentBtns.forEach(btn => {
     btn.addEventListener('click', function () {
@@ -70,5 +73,22 @@ function resetState(){
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
+    Array.from(answerButtonsElement.children).forEach(button => {
+        setStatusClass(button, button.dataset.correct)
+    })
+    nextButton.classList.remove('hide')
+}
 
+function setStatusClass(element, correct){
+    clearStatusClass(element)
+    if (correct) {
+        element.classList.add('correct')
+    }else {
+        element.classList.add('wrong')
+    }
+}
+
+function clearStatusClass(element){
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
 }

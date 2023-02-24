@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-    background-image: url("/assets/images/background.gif") ;
+    background-image: url("../images/background.gif") ;
 }
 
 /* Add card effect to menu. */
@@ -67,10 +67,8 @@ background-color: green;
 background-color: red;
 }
 
-.start-btn, .next-btn {
-    font-size: ;
+.continent-btn, .next-btn {
     font-weight: bold;
-    padding: 10px 20px;
 }
 
 .controls {

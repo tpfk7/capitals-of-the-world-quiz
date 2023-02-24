@@ -15,7 +15,7 @@ const asiaQuestions = [
     },
 ]
 
-const europeQuestions = [
+let europeQuestions = [
     {
         question: 'What is the capital of Ireland?',
         answers: [
@@ -25,6 +25,36 @@ const europeQuestions = [
             },
             {
                 text: 'Belfast',
+                correct: false
+            },
+            {
+                text: 'Galway',
+                correct: false
+            },
+            {
+                text: 'Cork',
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: 'What is the capital of Germany?',
+        answers: [
+            {
+                text: 'Berlin',
+                correct: true
+            },
+            {
+                text: 'Munich',
+                correct: false
+            },
+            {
+                text: 'Madrid',
+                correct: false
+            },
+            {
+                text: 'Stockholm',
                 correct: false
             }
         ]

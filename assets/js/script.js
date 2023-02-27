@@ -97,3 +97,10 @@ function clearStatusClass(element){
     element.classList.remove('correct')
     element.classList.remove('wrong')
 }
+
+function scoreCounter(){
+    document.getElementById('score-counter').innerHTML ="Score: " + 0
+    return scoreCounter+1
+}
+
+scoreCounter();

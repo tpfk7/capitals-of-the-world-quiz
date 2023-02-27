@@ -4,6 +4,7 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+let score = 0;
 
 // Makes questions random
 let shuffledQuestions, currentQuestionIndex, questions;
@@ -71,8 +72,14 @@ function resetState(){
 
 
 function selectAnswer(e) {
+
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
+    if(correct === true){
+        score++;
+        document.getElementById('score-counter').innerHTML = "Score: " + score;
+    
+    }
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
@@ -99,8 +106,9 @@ function clearStatusClass(element){
 }
 
 function scoreCounter(){
-    document.getElementById('score-counter').innerHTML ="Score: " + 0
-    return scoreCounter+1
+    document.getElementById('score-counter').innerHTML ="Score: " + score;
+
 }
+
 
 scoreCounter();

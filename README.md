@@ -1,15 +1,8 @@
 # CAPITALS OF THE WORLD QUIZ
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+The Capitals of the world quiz is a quiz trivia site for anyone who is interested in testing their knowledge on world capitals or for anyone who just wants to study up. The user can choose by continent which countries they want to be tested on to improve any knoweledge gaps they may have. 
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
 https://ui.dev/amiresponsive?url=https://tpfk7.github.io/capitals-of-the-world-quiz
 
 Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
@@ -20,63 +13,32 @@ To add the image into your README, use this format:
 
 ![screenshot](documentation/mockup.png)
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
 ## UX
 
-In this section, you will briefly explain your design processes.
+The site has an outer space style design. There are two reasons for this choice.
+The first is that it is to give the user the feeling that they are in space away from Earth and are trying to remember the capitals.
+The second reason is that the high contrast of the dark space and the bright question card is dynamic and visually interesting to look at without being too ditracting.
 
 ### Colour Scheme
 
-Explain your colours and the colour scheme.
 
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
 - `#4A4A4F` used for secondary text.
 - `#009FE3` used for secondary highlights.
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
 
-Example:
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+To fit with the outer space theme I chose to use the Exo-2 font as it has a Sci-fi look. 
 
 Example:
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+- [Exo 2](https://fonts.google.com/specimen/Exo+2?query=exo) was used for the primary headers and titles.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 ## User Stories
 

@@ -82,8 +82,6 @@ background-color: red;
 }
 
 .start{
-    display: flexbox;
-    justify-content: center;
     background-color: #0096FF;
     border: 2px solid black;
     border-radius: 5px;

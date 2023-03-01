@@ -5,9 +5,10 @@ const restartButton = document.getElementById('restart-btn')
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const mainTitle = document.getElementById('main-title')
 let score = 0;
 
-// Makes questions random
+
 let shuffledQuestions, currentQuestionIndex, questions;
 
 nextButton.addEventListener('click', () => {
@@ -45,15 +46,19 @@ function startGame() {
         btn.classList.add('hide');
     });
 
+    /* Makes questions random */
+
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     questionContainerElement.classList.remove('hide');
     setNextQuestion();
+
 }
 
 function setNextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex]);
+    
 
 }
 

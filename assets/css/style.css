@@ -95,3 +95,15 @@ background-color: red;
 .start:hover{
     transform: scale(1.02);
 }
+
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 50%;
+    }
+    .btn-grid{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+        margin: 20px 0;
+    }
+}

@@ -28,6 +28,8 @@ continentBtns.forEach(btn => {
             questions = africaQuestions;
         } else if (continent == 'n-america'){
             questions = namericaQuestions;
+        } else if (continent == 's-america'){
+            questions = samericaQuestions;
         }
         startGame();
     });

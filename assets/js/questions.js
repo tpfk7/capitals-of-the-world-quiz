@@ -68,6 +68,31 @@ let namericaQuestions = [
     },
 ]
 
+/*South-America*/
+let samericaQuestions = [
+    {
+        question: 'What is the capital Argentina?',
+        answers: [
+            {
+                text: 'Rosario',
+                correct: false
+            },
+            {
+                text: 'Salta',
+                correct: false
+            },
+            {
+                text: 'Mendoza',
+                correct: false
+            },
+            {
+                text: 'Buenos Aires',
+                correct: true
+            }
+        ]
+    },
+]
+
 /*Europe*/
 let europeQuestions = [
     {

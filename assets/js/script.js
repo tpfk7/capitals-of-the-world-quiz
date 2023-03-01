@@ -15,6 +15,7 @@ nextButton.addEventListener('click', () => {
     setNextQuestion()
 })
 
+/*Selects the questions by continent*/
 continentBtns.forEach(btn => {
     btn.addEventListener('click', function () {
         // let continent = btn.dataset.continent;
@@ -23,6 +24,8 @@ continentBtns.forEach(btn => {
             questions = europeQuestions;
         } else if (continent == 'asia') {
             questions = asiaQuestions;
+        } else if (continent == 'africa'){
+            questions = africaQuestions;
         }
         startGame();
     });
@@ -94,7 +97,6 @@ function setStatusClass(element, correct){
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
-
         score++;
         document.getElementById('score-counter').innerHTML = "Score: " + score;
 

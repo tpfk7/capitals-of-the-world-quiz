@@ -15,6 +15,30 @@ const asiaQuestions = [
     },
 ]
 
+let africaQuestions = [
+    {
+        question: 'What is the capital of Kenya?',
+        answers: [
+            {
+                text: 'Mombasa',
+                correct: false
+            },
+            {
+                text: 'Nairobi',
+                correct: true
+            },
+            {
+                text: 'Embu',
+                correct: false
+            },
+            {
+                text: 'Eldoret',
+                correct: false
+            }
+        ]
+    },
+]
+
 let europeQuestions = [
     {
         question: 'What is the capital of Ireland?',

@@ -75,11 +75,9 @@ function selectAnswer(e) {
 
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
-    if(correct === true){
-        score++;
-        document.getElementById('score-counter').innerHTML = "Score: " + score;
     
-    }
+    
+    
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
@@ -95,6 +93,10 @@ function setStatusClass(element, correct){
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
+
+        score++;
+        document.getElementById('score-counter').innerHTML = "Score: " + score;
+        
     }else {
         element.classList.add('wrong')
     }

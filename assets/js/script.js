@@ -30,6 +30,8 @@ continentBtns.forEach(btn => {
             questions = namericaQuestions;
         } else if (continent == 's-america'){
             questions = samericaQuestions;
+        } else if (continent == 'oceania'){
+            questions = oceania;
         }
         startGame();
     });

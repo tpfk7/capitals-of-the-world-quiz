@@ -93,6 +93,31 @@ let samericaQuestions = [
     },
 ]
 
+/*Oceania*/
+let oceania = [
+    {
+        question: 'What is the capital Australia?',
+        answers: [
+            {
+                text: 'Canberra',
+                correct: true
+            },
+            {
+                text: 'Sydney',
+                correct: false
+            },
+            {
+                text: 'Melbourne',
+                correct: false
+            },
+            {
+                text: 'Hobart',
+                correct: false
+            }
+        ]
+    },
+]
+
 /*Europe*/
 let europeQuestions = [
     {

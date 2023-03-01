@@ -1,6 +1,7 @@
 /* jshint esversion: 11 */
 const continentBtns = document.querySelectorAll('.continent-btn');
 const nextButton = document.getElementById('next-btn')
+const restartButton = document.getElementById('restart-btn')
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
@@ -84,8 +85,8 @@ function selectAnswer(e) {
     if (shuffledQuestions.length > currentQuestionIndex +1){
     nextButton.classList.remove('hide')
     } else{
-        nextButton.innerText = 'Restart'
-        nextButton.classList.remove('hide')
+        restartButton.innerText = 'Restart'
+        restartButton.classList.remove('hide')
     }
 }
 
@@ -96,7 +97,7 @@ function setStatusClass(element, correct){
 
         score++;
         document.getElementById('score-counter').innerHTML = "Score: " + score;
-        
+
     }else {
         element.classList.add('wrong')
     }

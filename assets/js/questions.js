@@ -1,4 +1,7 @@
 /* jshint esversion: 11 */
+
+
+/*Asia*/
 const asiaQuestions = [
     {
         question: 'What is the capital of Japan?',
@@ -15,6 +18,7 @@ const asiaQuestions = [
     },
 ]
 
+/*Africa*/
 let africaQuestions = [
     {
         question: 'What is the capital of Kenya?',
@@ -39,6 +43,32 @@ let africaQuestions = [
     },
 ]
 
+/*North-America*/
+let namericaQuestions = [
+    {
+        question: 'What is the capital Canada?',
+        answers: [
+            {
+                text: 'Vancouver',
+                correct: false
+            },
+            {
+                text: 'Toronto',
+                correct: false
+            },
+            {
+                text: 'Ottawa',
+                correct: true
+            },
+            {
+                text: 'Charlestown',
+                correct: false
+            }
+        ]
+    },
+]
+
+/*Europe*/
 let europeQuestions = [
     {
         question: 'What is the capital of Ireland?',

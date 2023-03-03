@@ -4,7 +4,7 @@
 /*Asia*/
 const asiaQuestions = [
     {
-        question: 'What is the capital of Japan?',
+        country: 'What is the capital of Japan?',
         answers: [
             {
                 text: 'Kyoto',
@@ -21,7 +21,7 @@ const asiaQuestions = [
 /*Africa*/
 let africaQuestions = [
     {
-        question: 'What is the capital of Kenya?',
+        country: 'What is the capital of Kenya?',
         answers: [
             {
                 text: 'Mombasa',
@@ -46,7 +46,7 @@ let africaQuestions = [
 /*North-America*/
 let namericaQuestions = [
     {
-        question: 'What is the capital Canada?',
+        country: 'What is the capital Canada?',
         answers: [
             {
                 text: 'Vancouver',
@@ -71,7 +71,7 @@ let namericaQuestions = [
 /*South-America*/
 let samericaQuestions = [
     {
-        question: 'What is the capital Argentina?',
+        country: 'What is the capital Argentina?',
         answers: [
             {
                 text: 'Rosario',
@@ -96,7 +96,7 @@ let samericaQuestions = [
 /*Oceania*/
 let oceania = [
     {
-        question: 'What is the capital Australia?',
+        country: 'What is the capital Australia?',
         answers: [
             {
                 text: 'Canberra',
@@ -121,7 +121,7 @@ let oceania = [
 /*Europe*/
 let europeQuestions = [
     {
-        question: 'What is the capital of Ireland?',
+        country:  'Ireland 🇮🇪',
         answers: [
             {
                 text: 'Dublin',
@@ -143,7 +143,7 @@ let europeQuestions = [
     },
 
     {
-        question: 'What is the capital of Germany?',
+        country: 'Germany 🇩🇪',
         answers: [
             {
                 text: 'Berlin',

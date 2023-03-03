@@ -6,6 +6,9 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const mainTitle = document.getElementById('main-title')
+const startingMinute = 1;
+let time = startingMinute * 60;
+const countdownEl = document.getElementById('countdown-timer');
 let score = 0;
 
 
@@ -129,3 +132,16 @@ function scoreCounter(){
 
 
 scoreCounter();
+
+/* Countdown timer for quiz */
+
+setInterval(updateCountdown, 1000);
+
+function updateCountdown(){
+    const minutes = Math.floor(time/60);
+    let seconds = time % 60;
+
+    countdownEl.innerHTML = `${minutes}: ${seconds}`;
+    time--;
+
+}

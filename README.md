@@ -42,15 +42,14 @@ Example:
 
 ## User Stories
 
-In this section, list all of your user stories for the project.
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to have a clear start button, so that I can easily choose to start the game when I am ready.
+- As a new site user, I would like to have clear buttons to select a continent, so that I can decide which set of countries I want to be tested on.
+- As a new site user, I would like to have buttons for each answer, so that I can easily select what I believe to be the correct answer.
+- As a new site user, I would like to have the answers change colour when I select them, so that I can clearly see if I selected the right answer.
+- As a new site user, I would like to have a score counter at the bottom, so that I can keep track of the questions I got right.
 
 ### Returning Site Users
 
@@ -105,34 +104,28 @@ Repeat for any addition wireframe pages you have.
 
 ## Features
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
 - **Feature #1**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The site has a clear and prominent start button so the user can choose when they want the game to start.
 
 ![screenshot](documentation/feature01.png)
 
 - **Feature #2**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The site has clear buttons for each continent so the user can choose what set of countries they want to be tested on.
 
 ![screenshot](documentation/feature02.png)
 
 - **Feature #3**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The site has clear buttons for the user to choose their answer. The buttons also change colour depending on what answer is chosen to make it obvious if the correct answer was chosen or not.
+
+- **Feature #3**
+
+    - Once the game has started a score counter at the bottom will display how many points the user has gotten from the quiz.
 
 ![screenshot](documentation/feature03.png)
 

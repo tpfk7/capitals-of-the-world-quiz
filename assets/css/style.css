@@ -103,6 +103,10 @@ background-color: red;
     font-size: 1.5rem;
 }
 
+.score-container{
+    font-size: 2rem;
+}
+
 @media only screen and (max-width: 768px){
     .container{
         max-width: 80%;

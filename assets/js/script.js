@@ -133,7 +133,7 @@ function clearStatusClass(element) {
 /* Countdown timer for quiz */
 function updateCountdown() {
     timerInterval = setInterval(() => {
-        countdownEl.innerHTML = time < 10 ? '0' + time : time;
+        countdownEl.innerHTML = time < 60 ?  + time : time;
         if (time <= 0) {
             timeOver();
         } else {

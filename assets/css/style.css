@@ -21,7 +21,8 @@ body {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: white;
+    color: white;
+    background-color: #5A5A5A;
     border-radius: 5px;
     padding: 10px;
     box-shadow: gray 0 0 10px 2px;
@@ -40,7 +41,7 @@ body {
 
 /* Adds colour to buttons */
 .btn {
-    background-color: #0096FF;
+    background-color: black;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
@@ -85,7 +86,7 @@ background-color: red;
 }
 
 .start{
-    background-color: #0096FF;
+    background-color: black;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 10px;

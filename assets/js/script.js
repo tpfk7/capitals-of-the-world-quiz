@@ -6,7 +6,7 @@ const questionContainerElement = document.getElementById('question-container');
 const country = document.getElementById('country');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const mainTitle = document.getElementById('main-title');
-let time = 10;
+let time = 60;
 const countdownEl = document.getElementById('countdown-timer');
 let score = 0;
 let timerInterval;

@@ -59,6 +59,15 @@ h2{
     font-size: 3rem;
 }
 
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
 .btn:hover{
     transform: scale(1.02);
 }
@@ -100,7 +109,7 @@ background-color: red;
 }
 
 .countdown-timer{
-    font-size: 1.5rem;
+    font-size: 4rem;
 }
 
 .score-container{
@@ -129,6 +138,9 @@ background-color: red;
     }
     #question{
         font-size: 1.8rem;
+    }
+    h2{
+        font-size: 2rem;
     }
 }
 

@@ -6,7 +6,7 @@ const questionContainerElement = document.getElementById('question-container');
 const country = document.getElementById('country');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const mainTitle = document.getElementById('main-title');
-let time = 60;
+let time = 1000;
 const countdownEl = document.getElementById('countdown-timer');
 let score = 0;
 let timerInterval;
@@ -97,7 +97,7 @@ function selectAnswer(e) {
     const correct = selectedButton.dataset.correct;
     if (correct == "true") {
         score++;
-        document.getElementById('score-counter').innerText = `${score} out of ${shuffledQuestions.length}`;
+        document.getElementById('score-counter').innerText = `${score} / ${shuffledQuestions.length}`;
 
     }
 

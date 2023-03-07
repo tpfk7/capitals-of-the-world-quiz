@@ -964,7 +964,7 @@ const asiaQuestions = [{
         ]
     },
 
-]
+];
 
 /*Africa*/
 let africaQuestions = [{
@@ -1935,131 +1935,131 @@ let africaQuestions = [{
         ]
     },
     {
-    country: '🇸🇿 Eswatini',
-    answers: [{
-            text: 'Siteki',
-            correct: false
-        },
-        {
-            text: 'Manzini',
-            correct: false
-        },
-        {
-            text: 'Mbabane',
-            correct: true
-        },
-        {
-            text: 'Lobamba',
-            correct: false
-        }
-    ]
-},
-{
-    country: '🇩🇯 Djibouti',
-    answers: [{
-            text: 'Djibouti City',
-            correct: true
-        },
-        {
-            text: 'Obock',
-            correct: false
-        },
-        {
-            text: 'Arta',
-            correct: false
-        },
-        {
-            text: 'Dikhil',
-            correct: false
-        }
-    ]
-},
-{
-    country: '🇰🇲 Comoros',
-    answers: [{
-            text: 'Moroni',
-            correct: true
-        },
-        {
-            text: 'Domoney',
-            correct: false
-        },
-        {
-            text: 'Mutsamudu',
-            correct: false
-        },
-        {
-            text: 'Ziroudani',
-            correct: false
-        }
-    ]
-},
-{
-    country: '🇨🇻 Cape Verde',
-    answers: [{
-            text: 'Praia',
-            correct: true
-        },
-        {
-            text: 'Mindelo',
-            correct: false
-        },
-        {
-            text: 'Tarrafal',
-            correct: false
-        },
-        {
-            text: 'Espargos',
-            correct: false
-        }
-    ]
-},
-{
-    country: '🇸🇹 São Tomé & Príncipe',
-    answers: [{
-            text: 'São Tomé',
-            correct: true
-        },
-        {
-            text: 'Santana',
-            correct: false
-        },
-        {
-            text: 'Pantufo',
-            correct: false
-        },
-        {
-            text: 'Neves',
-            correct: false
-        }
-    ]
-},
-{
-    country: '🇸🇨 Seychelles',
-    answers: [{
-            text: 'Victoria',
-            correct: true
-        },
-        {
-            text: 'Takamaka',
-            correct: false
-        },
-        {
-            text: 'Beau Vallon',
-            correct: false
-        },
-        {
-            text: 'Neves',
-            correct: false
-        }
-    ]
-},
+        country: '🇸🇿 Eswatini',
+        answers: [{
+                text: 'Siteki',
+                correct: false
+            },
+            {
+                text: 'Manzini',
+                correct: false
+            },
+            {
+                text: 'Mbabane',
+                correct: true
+            },
+            {
+                text: 'Lobamba',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇩🇯 Djibouti',
+        answers: [{
+                text: 'Djibouti City',
+                correct: true
+            },
+            {
+                text: 'Obock',
+                correct: false
+            },
+            {
+                text: 'Arta',
+                correct: false
+            },
+            {
+                text: 'Dikhil',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇰🇲 Comoros',
+        answers: [{
+                text: 'Moroni',
+                correct: true
+            },
+            {
+                text: 'Domoney',
+                correct: false
+            },
+            {
+                text: 'Mutsamudu',
+                correct: false
+            },
+            {
+                text: 'Ziroudani',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇨🇻 Cape Verde',
+        answers: [{
+                text: 'Praia',
+                correct: true
+            },
+            {
+                text: 'Mindelo',
+                correct: false
+            },
+            {
+                text: 'Tarrafal',
+                correct: false
+            },
+            {
+                text: 'Espargos',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇸🇹 São Tomé & Príncipe',
+        answers: [{
+                text: 'São Tomé',
+                correct: true
+            },
+            {
+                text: 'Santana',
+                correct: false
+            },
+            {
+                text: 'Pantufo',
+                correct: false
+            },
+            {
+                text: 'Neves',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇸🇨 Seychelles',
+        answers: [{
+                text: 'Victoria',
+                correct: true
+            },
+            {
+                text: 'Takamaka',
+                correct: false
+            },
+            {
+                text: 'Beau Vallon',
+                correct: false
+            },
+            {
+                text: 'Neves',
+                correct: false
+            }
+        ]
+    },
 
 
 
 
 
-]
+];
 
 /*North-America*/
 let namericaQuestions = [{
@@ -2125,11 +2125,11 @@ let oceania = [{
             correct: false
         }
     ]
-}, ]
+}, ];
 
 /*Europe*/
 let europeQuestions = [{
-        country: 'Ireland 🇮🇪',
+        country: '🇮🇪 Ireland ',
         answers: [{
                 text: 'Dublin',
                 correct: true
@@ -2150,7 +2150,7 @@ let europeQuestions = [{
     },
 
     {
-        country: 'Germany 🇩🇪',
+        country: ' 🇩🇪 Germany',
         answers: [{
                 text: 'Berlin',
                 correct: true
@@ -2169,4 +2169,911 @@ let europeQuestions = [{
             }
         ]
     },
-]
+    {
+        country: ' 🇩🇪 Germany',
+        answers: [{
+                text: 'Berlin',
+                correct: true
+            },
+            {
+                text: 'Munich',
+                correct: false
+            },
+            {
+                text: 'Madrid',
+                correct: false
+            },
+            {
+                text: 'Stockholm',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇷🇺 Russia',
+        answers: [{
+                text: 'Moscow',
+                correct: true
+            },
+            {
+                text: 'Samara',
+                correct: false
+            },
+            {
+                text: 'Omsk',
+                correct: false
+            },
+            {
+                text: 'Kazan',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England',
+        answers: [{
+                text: 'London',
+                correct: true
+            },
+            {
+                text: 'Manchester',
+                correct: false
+            },
+            {
+                text: 'York',
+                correct: false
+            },
+            {
+                text: 'Newcastle',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇫🇷 France',
+        answers: [{
+                text: 'Paris',
+                correct: true
+            },
+            {
+                text: 'Lyon',
+                correct: false
+            },
+            {
+                text: 'Nantes',
+                correct: false
+            },
+            {
+                text: 'Nice',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇮🇹 Italy',
+        answers: [{
+                text: 'Rome',
+                correct: true
+            },
+            {
+                text: 'Naples',
+                correct: false
+            },
+            {
+                text: 'Verona',
+                correct: false
+            },
+            {
+                text: 'Milan',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇪🇸 Spain',
+        answers: [{
+                text: 'Madrid',
+                correct: true
+            },
+            {
+                text: 'Valencia',
+                correct: false
+            },
+            {
+                text: 'Bilbao',
+                correct: false
+            },
+            {
+                text: 'Barcelona',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇺🇦 Ukraine',
+        answers: [{
+                text: 'Kyiv',
+                correct: true
+            },
+            {
+                text: 'Lviv',
+                correct: false
+            },
+            {
+                text: 'Odesa',
+                correct: false
+            },
+            {
+                text: 'Kharkiv',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇵🇱 Poland',
+        answers: [{
+                text: 'Warsaw',
+                correct: true
+            },
+            {
+                text: 'Lublin',
+                correct: false
+            },
+            {
+                text: 'Krakow',
+                correct: false
+            },
+            {
+                text: 'Katowice',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇷🇴 Romania',
+        answers: [{
+                text: 'Warsaw',
+                correct: true
+            },
+            {
+                text: 'Sibiu',
+                correct: false
+            },
+            {
+                text: 'Oradea',
+                correct: false
+            },
+            {
+                text: 'Brasov',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇳🇱 Netherlands',
+        answers: [{
+                text: 'Amsterdam',
+                correct: true
+            },
+            {
+                text: 'Rotterdam',
+                correct: false
+            },
+            {
+                text: 'Haarlem',
+                correct: false
+            },
+            {
+                text: 'Maastricht',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇧🇪 Belgium',
+        answers: [{
+                text: 'Brussels',
+                correct: false
+            },
+            {
+                text: 'Ghent',
+                correct: true
+            },
+            {
+                text: 'Namur',
+                correct: false
+            },
+            {
+                text: 'Bruges',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇧🇪 Czechia',
+        answers: [{
+                text: 'Brno',
+                correct: false
+            },
+            {
+                text: 'Prague',
+                correct: true
+            },
+            {
+                text: 'Liberec',
+                correct: false
+            },
+            {
+                text: 'Olomouc',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇬🇷 Greece',
+        answers: [{
+                text: 'Rhodes',
+                correct: false
+            },
+            {
+                text: 'Athens',
+                correct: true
+            },
+            {
+                text: 'Heraklion',
+                correct: false
+            },
+            {
+                text: 'Chania',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇵🇹 Portugal',
+        answers: [{
+                text: 'Faro',
+                correct: false
+            },
+            {
+                text: 'Lisbon',
+                correct: true
+            },
+            {
+                text: 'Porto',
+                correct: false
+            },
+            {
+                text: 'Braga',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇸🇪 Sweden',
+        answers: [{
+                text: 'Uppsala',
+                correct: false
+            },
+            {
+                text: 'Stockholm',
+                correct: true
+            },
+            {
+                text: 'Gothenburg',
+                correct: false
+            },
+            {
+                text: 'Helsingborg',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇭🇺 Hungary',
+        answers: [{
+                text: 'Eger',
+                correct: false
+            },
+            {
+                text: 'Budapest',
+                correct: true
+            },
+            {
+                text: 'Sopron',
+                correct: false
+            },
+            {
+                text: 'Debrecen',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇧🇾 Belarus',
+        answers: [{
+                text: 'Grodno',
+                correct: false
+            },
+            {
+                text: 'Minsk',
+                correct: true
+            },
+            {
+                text: 'Gomel',
+                correct: false
+            },
+            {
+                text: 'Viciebsk',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇦🇹 Austria',
+        answers: [{
+                text: 'Graz',
+                correct: false
+            },
+            {
+                text: 'Vienna',
+                correct: true
+            },
+            {
+                text: 'Linz',
+                correct: false
+            },
+            {
+                text: 'Villach',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇷🇸 Serbia',
+        answers: [{
+                text: 'Novi Sad',
+                correct: false
+            },
+            {
+                text: 'Belgrade',
+                correct: true
+            },
+            {
+                text: 'Subotica',
+                correct: false
+            },
+            {
+                text: 'Kragujevac',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇷🇸 Serbia',
+        answers: [{
+                text: 'Novi Sad',
+                correct: false
+            },
+            {
+                text: 'Belgrade',
+                correct: true
+            },
+            {
+                text: 'Subotica',
+                correct: false
+            },
+            {
+                text: 'Kragujevac',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇨🇭 Switzerland',
+        answers: [{
+                text: 'Geneva',
+                correct: false
+            },
+            {
+                text: 'Bern',
+                correct: true
+            },
+            {
+                text: 'Chur',
+                correct: false
+            },
+            {
+                text: 'Lugano',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇧🇬 Bulgaria',
+        answers: [{
+                text: 'Burgas',
+                correct: false
+            },
+            {
+                text: 'Ruse',
+                correct: false
+            },
+            {
+                text: 'Sofia',
+                correct: true
+            },
+            {
+                text: 'Dobrich',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇩🇰 Denmark',
+        answers: [{
+                text: 'Aarhus',
+                correct: false
+            },
+            {
+                text: 'Vejle',
+                correct: false
+            },
+            {
+                text: 'Copenhagen',
+                correct: true
+            },
+            {
+                text: 'Odense',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇫🇮 Finland',
+        answers: [{
+                text: 'Oulu',
+                correct: false
+            },
+            {
+                text: 'Turku',
+                correct: false
+            },
+            {
+                text: 'Helsinki',
+                correct: true
+            },
+            {
+                text: 'Espoo',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇸🇰 Slovakia',
+        answers: [{
+                text: 'Levoca',
+                correct: false
+            },
+            {
+                text: 'Presov',
+                correct: false
+            },
+            {
+                text: 'Bratislava',
+                correct: true
+            },
+            {
+                text: 'Bardejov',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇳🇴 Norway',
+        answers: [{
+                text: 'Bergen',
+                correct: false
+            },
+            {
+                text: 'Tromso',
+                correct: false
+            },
+            {
+                text: 'Oslo',
+                correct: true
+            },
+            {
+                text: 'Alesund',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇭🇷 Croatia',
+        answers: [{
+                text: 'Zadar',
+                correct: false
+            },
+            {
+                text: 'Split',
+                correct: false
+            },
+            {
+                text: 'Zagreb',
+                correct: true
+            },
+            {
+                text: 'Rijeka',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇲🇩 Moldova',
+        answers: [{
+                text: 'Soroca',
+                correct: false
+            },
+            {
+                text: 'Comrat',
+                correct: false
+            },
+            {
+                text: 'Chișinău',
+                correct: true
+            },
+            {
+                text: 'Orhei',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇧🇦 Bosnia & Herzegovina',
+        answers: [{
+                text: 'Tuzla',
+                correct: false
+            },
+            {
+                text: 'Brcko',
+                correct: false
+            },
+            {
+                text: 'Sarajevo',
+                correct: true
+            },
+            {
+                text: 'Prijedor',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇦🇱 Albania',
+        answers: [{
+                text: 'Berat',
+                correct: false
+            },
+            {
+                text: 'Durres',
+                correct: false
+            },
+            {
+                text: 'Tirana',
+                correct: true
+            },
+            {
+                text: 'Vlore',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: ' 🇱🇹 Lithuania',
+        answers: [{
+                text: 'Kaunas',
+                correct: false
+            },
+            {
+                text: 'Palanga',
+                correct: false
+            },
+            {
+                text: 'Tirana',
+                correct: false
+            },
+            {
+                text: 'Vilnius',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: ' 🇲🇰 North Macedonia',
+        answers: [{
+                text: 'Bitola',
+                correct: false
+            },
+            {
+                text: 'Veles',
+                correct: false
+            },
+            {
+                text: 'Tetovo',
+                correct: false
+            },
+            {
+                text: 'Skopje',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: ' 🇸🇮 Slovenia',
+        answers: [{
+                text: 'Novo Mesto',
+                correct: false
+            },
+            {
+                text: 'Celje',
+                correct: false
+            },
+            {
+                text: 'Ptuj',
+                correct: false
+            },
+            {
+                text: 'Ljubljana',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: ' 🇱🇻 Latvia',
+        answers: [{
+                text: 'Jelgava',
+                correct: false
+            },
+            {
+                text: 'Cesis',
+                correct: false
+            },
+            {
+                text: 'Kuldiga',
+                correct: false
+            },
+            {
+                text: 'Riga',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: ' 🇪🇪 Estonia',
+        answers: [{
+                text: 'Tartu',
+                correct: false
+            },
+            {
+                text: 'Parnu',
+                correct: false
+            },
+            {
+                text: 'Rakvere',
+                correct: false
+            },
+            {
+                text: 'Tallinn',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇲🇪 Montenegro',
+        answers: [{
+                text: 'Kotor',
+                correct: false
+            },
+            {
+                text: 'Budva',
+                correct: false
+            },
+            {
+                text: 'Tivat',
+                correct: false
+            },
+            {
+                text: 'Podgorica',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇱🇺 Luxembourg',
+        answers: [{
+                text: 'Wiltz',
+                correct: false
+            },
+            {
+                text: 'Vianden',
+                correct: false
+            },
+            {
+                text: 'Differdange',
+                correct: false
+            },
+            {
+                text: 'Luxembourg-City',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇲🇹 Malta',
+        answers: [{
+                text: 'Birgu',
+                correct: false
+            },
+            {
+                text: 'Mdina',
+                correct: false
+            },
+            {
+                text: 'Victoria',
+                correct: false
+            },
+            {
+                text: 'Valletta',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇮🇸 Iceland',
+        answers: [{
+                text: 'Vik',
+                correct: false
+            },
+            {
+                text: 'Hofn',
+                correct: false
+            },
+            {
+                text: 'Victoria',
+                correct: false
+            },
+            {
+                text: 'Reykjavík',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇦🇩 Andorra',
+        answers: [{
+                text: 'Pal',
+                correct: false
+            },
+            {
+                text: 'Les Bons',
+                correct: false
+            },
+            {
+                text: 'Santa Coloma',
+                correct: false
+            },
+            {
+                text: 'Andorra la Vella',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇲🇨 Monaco',
+        answers: [{
+                text: 'Menton',
+                correct: false
+            },
+            {
+                text: 'La Turbie',
+                correct: false
+            },
+            {
+                text: 'Santa Coloma',
+                correct: false
+            },
+            {
+                text: 'Monte Carlo',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇱🇮 Liechtenstein',
+        answers: [{
+                text: 'Mauren',
+                correct: false
+            },
+            {
+                text: 'Schaan',
+                correct: false
+            },
+            {
+                text: 'Planken',
+                correct: false
+            },
+            {
+                text: 'Vaduz',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇸🇲 San Marino',
+        answers: [{
+                text: 'Faetano',
+                correct: false
+            },
+            {
+                text: 'Acquaviva',
+                correct: false
+            },
+            {
+                text: 'Fiorentino',
+                correct: false
+            },
+            {
+                text: 'San Marino city',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland',
+        answers: [{
+                text: 'Perth',
+                correct: false
+            },
+            {
+                text: 'Glasgow',
+                correct: false
+            },
+            {
+                text: 'Dundee',
+                correct: false
+            },
+            {
+                text: 'Edinburgh',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '󠁧󠁢󠁳🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales',
+        answers: [{
+                text: 'Swansea',
+                correct: false
+            },
+            {
+                text: 'Bangor',
+                correct: false
+            },
+            {
+                text: 'St Davids',
+                correct: false
+            },
+            {
+                text: 'Cardiff',
+                correct: true
+            }
+        ]
+    },
+
+
+
+
+
+
+
+];

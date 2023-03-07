@@ -120,6 +120,15 @@ background-color: red;
     font-size: 2rem;
 }
 
+a{
+    text-decoration:none;
+}
+.icon{
+    font-size: 10rem;
+    text-decoration:none;
+}
+
+
 
 @media only screen and (max-width: 768px){
     .container{
@@ -159,11 +168,14 @@ background-color: red;
         padding-left: 10px;
         text-align: center;
     }
+    .start{
+        font-size:1.5rem;
+    }
 }
 
-    @media only screen and (max-width: 500px){
+    /* @media only screen and (max-width: 500px){
         .start{
             margin: 5px 18vw
             
         }
-}
+} */

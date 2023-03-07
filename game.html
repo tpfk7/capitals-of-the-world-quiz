@@ -6,12 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/aaad872616.js" crossorigin="anonymous"></script>
     <title>Capitals of the World Quiz</title>
 </head>
 
 <body>
-
     <main class="container">
         <h1 class="main-title"></h1>
         <section id="question-container" class="hide">
@@ -23,9 +21,10 @@
                 <button class="btn">Answer 3</button>
                 <button class="btn">Answer 4</button>
             </div>
-            <div>
+            <div style="
+            display: flex;
+            justify-content: center;">
             <button id="next-btn" class="next-btn btn hide">Next</button>
-            <i class="fa-solid fa-gear"></i>
             </div>
             <br>
         </section>
@@ -39,6 +38,7 @@
                 <button id="s-america" class="btn continent-btn" data-continent="s-america">S.America</button>
                 <button id="oceania" class="btn continent-btn" data-continent="oceania">Oceania</button>
                 <!-- <button id="next-btn" class="next-btn btn hide">Next</button> -->
+                <i class="fa-solid fa-house"></i>
                 <a href="index.html" id="restart-btn" class="next-btn btn hide">
                     Restart
                 </a>
@@ -51,6 +51,7 @@
 
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/aaad872616.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

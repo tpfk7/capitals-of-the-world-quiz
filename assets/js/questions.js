@@ -2063,25 +2063,446 @@ let africaQuestions = [{
 
 /*North-America*/
 let namericaQuestions = [{
-    country: 'What is the capital Canada?',
-    answers: [{
-            text: 'Vancouver',
-            correct: false
-        },
-        {
-            text: 'Toronto',
-            correct: false
-        },
-        {
-            text: 'Ottawa',
-            correct: true
-        },
-        {
-            text: 'Charlestown',
-            correct: false
-        }
-    ]
-}, ]
+        country: '🇨🇦 Canada',
+        answers: [{
+                text: 'Vancouver',
+                correct: false
+            },
+            {
+                text: 'Toronto',
+                correct: false
+            },
+            {
+                text: 'Ottawa',
+                correct: true
+            },
+            {
+                text: 'Charlestown',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇺🇸 the USA',
+        answers: [{
+                text: 'Denver',
+                correct: false
+            },
+            {
+                text: 'Washington, D.C.',
+                correct: true
+            },
+            {
+                text: 'New-York',
+                correct: false
+            },
+            {
+                text: 'Maine',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇲🇽 Mexico',
+        answers: [{
+                text: 'Oaxaca',
+                correct: false
+            },
+            {
+                text: 'Mexico City',
+                correct: true
+            },
+            {
+                text: 'Puebla',
+                correct: false
+            },
+            {
+                text: 'Tijuana',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇬🇹 Guatemala',
+        answers: [{
+                text: 'Jutiapa',
+                correct: false
+            },
+            {
+                text: 'Guatemala City',
+                correct: true
+            },
+            {
+                text: 'Jalapa',
+                correct: false
+            },
+            {
+                text: 'Coban',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇭🇹 Haiti',
+        answers: [{
+                text: 'Gonaives',
+                correct: false
+            },
+            {
+                text: 'Port-au-Prince',
+                correct: true
+            },
+            {
+                text: 'Carrefour',
+                correct: false
+            },
+            {
+                text: 'Port-de-Paix',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇩🇴 Dominican Republic',
+        answers: [{
+                text: 'La Vega',
+                correct: false
+            },
+            {
+                text: 'Santo Domingo',
+                correct: true
+            },
+            {
+                text: 'Puerto Plata',
+                correct: false
+            },
+            {
+                text: 'Santiago',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇨🇺 Cuba',
+        answers: [{
+                text: 'Havana',
+                correct: true
+            },
+            {
+                text: 'Santa Clara',
+                correct: false
+            },
+            {
+                text: 'Las Tunas',
+                correct: false
+            },
+            {
+                text: 'Camaguey',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇭🇳 Honduras',
+        answers: [{
+                text: 'Tegucigalpa',
+                correct: true
+            },
+            {
+                text: 'Choloma',
+                correct: false
+            },
+            {
+                text: 'La Ceiba',
+                correct: false
+            },
+            {
+                text: 'Puerto Cortes',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇳🇮 Nicaragua',
+        answers: [{
+                text: 'Managua',
+                correct: true
+            },
+            {
+                text: 'Masaya',
+                correct: false
+            },
+            {
+                text: 'Leon',
+                correct: false
+            },
+            {
+                text: 'Tipitapa',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇸🇻 El Salvador',
+        answers: [{
+                text: 'San Salvador',
+                correct: true
+            },
+            {
+                text: 'Santa Ana',
+                correct: false
+            },
+            {
+                text: 'La Union',
+                correct: false
+            },
+            {
+                text: 'Santa Tecla',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇨🇷 Costa Rica',
+        answers: [{
+                text: 'San José',
+                correct: true
+            },
+            {
+                text: 'Cartago',
+                correct: false
+            },
+            {
+                text: 'San Felipe',
+                correct: false
+            },
+            {
+                text: 'Heredia',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇵🇦 Panama',
+        answers: [{
+                text: 'Panama City',
+                correct: true
+            },
+            {
+                text: 'Colon',
+                correct: false
+            },
+            {
+                text: 'David',
+                correct: false
+            },
+            {
+                text: 'Santiago',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇯🇲 Jamaica',
+        answers: [{
+                text: 'Kingston',
+                correct: true
+            },
+            {
+                text: 'Montego Bay',
+                correct: false
+            },
+            {
+                text: 'Portmore',
+                correct: false
+            },
+            {
+                text: 'Linstead',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇹🇹 Trinidad & Tobago',
+        answers: [{
+                text: 'Port of Spain',
+                correct: true
+            },
+            {
+                text: 'Sangre Grande',
+                correct: false
+            },
+            {
+                text: 'Couva',
+                correct: false
+            },
+            {
+                text: 'San Fernando',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇧🇸 Bahamas',
+        answers: [{
+                text: 'Nassau',
+                correct: true
+            },
+            {
+                text: 'Freeport',
+                correct: false
+            },
+            {
+                text: 'George Town',
+                correct: false
+            },
+            {
+                text: 'West End',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇧🇿 Belize',
+        answers: [{
+                text: 'Belize City',
+                correct: false
+            },
+            {
+                text: 'Belmopan',
+                correct: false
+            },
+            {
+                text: 'Dangriga',
+                correct: false
+            },
+            {
+                text: 'Belmopan',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇧🇧 Barbados',
+        answers: [{
+                text: 'Holetown',
+                correct: false
+            },
+            {
+                text: 'Oistins',
+                correct: false
+            },
+            {
+                text: 'Bridgetown',
+                correct: true
+            },
+            {
+                text: 'Saint James',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇬🇩 Grenada',
+        answers: [{
+                text: 'Ka-fe Beau',
+                correct: false
+            },
+            {
+                text: 'Willis',
+                correct: false
+            },
+            {
+                text: "Saint George's",
+                correct: true
+            },
+            {
+                text: 'Grenville',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇻🇨 St. Vincent & Grenadines',
+        answers: [{
+                text: 'Biabou',
+                correct: false
+            },
+            {
+                text: 'Layou',
+                correct: false
+            },
+            {
+                text: "Kingstown",
+                correct: true
+            },
+            {
+                text: 'Calliaqua',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇦🇬 Antigua & Barbuda',
+        answers: [{
+                text: 'Cordington',
+                correct: false
+            },
+            {
+                text: 'Bolands',
+                correct: false
+            },
+            {
+                text: "Saint John's",
+                correct: true
+            },
+            {
+                text: 'Swetes',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇩🇲 Dominica',
+        answers: [{
+                text: 'Berekua',
+                correct: false
+            },
+            {
+                text: 'Marigot',
+                correct: false
+            },
+            {
+                text: "Roseau",
+                correct: true
+            },
+            {
+                text: 'Portsmouth',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇰🇳 St Kitts & Nevis',
+        answers: [{
+                text: 'Fig Tree',
+                correct: false
+            },
+            {
+                text: 'Cayon',
+                correct: false
+            },
+            {
+                text: "Basseterre",
+                correct: true
+            },
+            {
+                text: 'Charlestown',
+                correct: false
+            }
+        ]
+    },
+];
 
 /*South-America*/
 let samericaQuestions = [{

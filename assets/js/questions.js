@@ -2506,25 +2506,306 @@ let namericaQuestions = [{
 
 /*South-America*/
 let samericaQuestions = [{
-    country: 'What is the capital Argentina?',
-    answers: [{
-            text: 'Rosario',
-            correct: false
-        },
-        {
-            text: 'Salta',
-            correct: false
-        },
-        {
-            text: 'Mendoza',
-            correct: false
-        },
-        {
-            text: 'Buenos Aires',
-            correct: true
-        }
-    ]
-}, ]
+        country: '🇦🇷 Argentina',
+        answers: [{
+                text: 'Rosario',
+                correct: false
+            },
+            {
+                text: 'Salta',
+                correct: false
+            },
+            {
+                text: 'Mendoza',
+                correct: false
+            },
+            {
+                text: 'Buenos Aires',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇧🇷 Brazil',
+        answers: [{
+                text: 'Rio de Janeiro',
+                correct: false
+            },
+            {
+                text: 'Salvador',
+                correct: false
+            },
+            {
+                text: 'Manaus',
+                correct: false
+            },
+            {
+                text: 'Brasília',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇧🇷 Brazil',
+        answers: [{
+                text: 'Rio de Janeiro',
+                correct: false
+            },
+            {
+                text: 'Salvador',
+                correct: false
+            },
+            {
+                text: 'Manaus',
+                correct: false
+            },
+            {
+                text: 'Brasília',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇨🇴 Colombia',
+        answers: [{
+                text: 'Cali',
+                correct: false
+            },
+            {
+                text: 'Popayan',
+                correct: false
+            },
+            {
+                text: 'Santa Marta',
+                correct: false
+            },
+            {
+                text: 'Bogotá',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇵🇪 Peru',
+        answers: [{
+                text: 'Cusco',
+                correct: false
+            },
+            {
+                text: 'Trujillo',
+                correct: false
+            },
+            {
+                text: 'Iquitos',
+                correct: false
+            },
+            {
+                text: 'Lima',
+                correct: true
+            }
+        ]
+    },
+    {
+        country: '🇻🇪 Venezuela',
+        answers: [{
+                text: 'Caracas',
+                correct: true
+            },
+            {
+                text: 'Guayana City',
+                correct: false
+            },
+            {
+                text: 'Barinas',
+                correct: false
+            },
+            {
+                text: 'San Cristobal',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇨🇱 Chile',
+        answers: [{
+                text: 'Santiago',
+                correct: true
+            },
+            {
+                text: 'La Serna',
+                correct: false
+            },
+            {
+                text: 'Valparaiso',
+                correct: false
+            },
+            {
+                text: 'Punta Arenas',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇪🇨 Ecuador',
+        answers: [{
+                text: 'Quito',
+                correct: true
+            },
+            {
+                text: 'Loja',
+                correct: false
+            },
+            {
+                text: 'Ambato',
+                correct: false
+            },
+            {
+                text: 'Guayaquil',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇧🇴 Bolivia',
+        answers: [{
+                text: 'Sucre',
+                correct: true
+            },
+            {
+                text: 'La Paz',
+                correct: true
+            },
+            {
+                text: 'Oruro',
+                correct: false
+            },
+            {
+                text: 'Potosi',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇵🇾 Paraguay',
+        answers: [{
+                text: 'Lambare',
+                correct: false
+            },
+            {
+                text: 'Asunción',
+                correct: true
+            },
+            {
+                text: 'Capiata',
+                correct: false
+            },
+            {
+                text: 'San Lorenzo',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇺🇾 Uruguay',
+        answers: [{
+                text: 'Maldonado',
+                correct: false
+            },
+            {
+                text: 'Montevideo',
+                correct: true
+            },
+            {
+                text: 'Rivera',
+                correct: false
+            },
+            {
+                text: 'Paysandu',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇬🇾 Guyana',
+        answers: [{
+                text: 'Bartica',
+                correct: false
+            },
+            {
+                text: 'Georgetown',
+                correct: true
+            },
+            {
+                text: 'Anna Regina',
+                correct: false
+            },
+            {
+                text: 'Parika',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇸🇷 Suriname',
+        answers: [{
+                text: 'Groningen',
+                correct: false
+            },
+            {
+                text: 'Brownsweg',
+                correct: false
+            },
+            {
+                text: 'Paramaribo',
+                correct: true
+            },
+            {
+                text: 'Groningen',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇬🇫 French Guiana',
+        answers: [{
+                text: 'Mana',
+                correct: false
+            },
+            {
+                text: 'Matoury',
+                correct: false
+            },
+            {
+                text: 'Cayenne',
+                correct: true
+            },
+            {
+                text: 'Sinnamary',
+                correct: false
+            }
+        ]
+    },
+    {
+        country: '🇫🇰 Falklands Islands',
+        answers: [{
+                text: 'Goose Green',
+                correct: false
+            },
+            {
+                text: 'North Arm',
+                correct: false
+            },
+            {
+                text: 'Stanley',
+                correct: true
+            },
+            {
+                text: 'Dos Lomas',
+                correct: false
+            }
+        ]
+    },
+]
 
 /*Oceania*/
 let oceania = [{

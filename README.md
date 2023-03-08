@@ -23,10 +23,11 @@ The second reason is that the high contrast of the dark space and the bright que
 ### Colour Scheme
 
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `white` used for primary text.
+- `gray` used for primary highlights.
+- `black` used for button background.
+- `green` used for correct answer button.
+- `red` used for secondary wrong answer button.
 
 
 
@@ -50,55 +51,45 @@ Example:
 - As a new site user, I would like to have buttons for each answer, so that I can easily select what I believe to be the correct answer.
 - As a new site user, I would like to have the answers change colour when I select them, so that I can clearly see if I selected the right answer.
 - As a new site user, I would like to have a score counter at the bottom, so that I can keep track of the questions I got right.
-
-### Returning Site Users
-
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-
-### Site Admin
-
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a new site user, I would like to have a timer, so that I can challenge myself to answer as many questions as possible.
+- As a new site user, I would like to have an home icon, so that I can return to the main menu at any point.
 
 ## Wireframes
 
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+I've used the software pixelmator pro to design my site wireframes.
 
 ### Home Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-index.jpg) |
+| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-index.png) |
+| Desktop | ![screenshot](/documentation/wireframe/desktop/index-desktop.png) |
 
-### About Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
-
-### Contact Page Wireframes
+### Continent Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-continent.jpg) |
+| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-continent.png) |
+| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-continent.png) |
+
+### Question Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-questions.jpg) |
+| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-question.png) |
+| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-question%20copy.png) |
+
+### Score Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-score.jpg) |
+| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-score.png) |
+| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-score.png) |
 
 Repeat for any addition wireframe pages you have.
 
@@ -111,27 +102,44 @@ Repeat for any addition wireframe pages you have.
 
     - The site has a clear and prominent start button so the user can choose when they want the game to start.
 
-![screenshot](documentation/feature01.png)
+![screenshot](/documentation/feature/start-button.png)
 
 - **Feature #2**
 
     - The site has clear buttons for each continent so the user can choose what set of countries they want to be tested on.
 
-![screenshot](documentation/feature02.png)
+![screenshot](/documentation/feature/continent.png)
 
 - **Feature #3**
 
     - The site has clear buttons for the user to choose their answer. The buttons also change colour depending on what answer is chosen to make it obvious if the correct answer was chosen or not.
 
+    ![screenshot](/documentation/feature/question-color.png)
+
 - **Feature #3**
 
-    - Once the game has started a score counter at the bottom will display how many points the user has gotten from the quiz.
+    - Once the game has started a score counter at the bottom will display how many questions the user got right.
 
-![screenshot](documentation/feature03.png)
+    ![screenshot](/documentation/feature/score-counter.png)
 
-Repeat as necessary for as many features as your site contains.
+    - **Feature #4**
 
-Hint: the more, the merrier!
+    - A timer above the answers shows the user how much time is remaining.
+
+![screenshot](/documentation/feature/timer.png)
+
+- **Feature #5**
+
+    - A home icon under the question can bring the user back to home page.
+
+    ![screenshot](/documentation/feature/score-counter.png)
+
+
+- **Feature #5**
+
+    - A restart button allows the user to restart the quiz.
+
+    ![screenshot](/documentation/feature/restart.png)
 
 ### Future Features
 

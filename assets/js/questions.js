@@ -2808,8 +2808,9 @@ let samericaQuestions = [{
 ]
 
 /*Oceania*/
-let oceania = [{
-    country: 'What is the capital Australia?',
+let oceania = [
+    {
+    country: '🇦🇺 Australia',
     answers: [{
             text: 'Canberra',
             correct: true
@@ -2827,7 +2828,268 @@ let oceania = [{
             correct: false
         }
     ]
-}, ];
+}, 
+{
+    country: '🇵🇬 Papua New Guinea',
+    answers: [{
+            text: 'Port Moresby',
+            correct: true
+        },
+        {
+            text: 'Goroka',
+            correct: false
+        },
+        {
+            text: 'Lae',
+            correct: false
+        },
+        {
+            text: 'Arawa',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇳🇿 New Zealand',
+    answers: [{
+            text: 'Wellington',
+            correct: true
+        },
+        {
+            text: 'Auckland',
+            correct: false
+        },
+        {
+            text: 'Hamilton',
+            correct: false
+        },
+        {
+            text: 'Rotorua',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇫🇯 Fiji',
+    answers: [{
+            text: 'Suva',
+            correct: true
+        },
+        {
+            text: 'Nadi',
+            correct: false
+        },
+        {
+            text: 'Ba',
+            correct: false
+        },
+        {
+            text: 'Sigatoka',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇸🇧 Solomon Islands',
+    answers: [{
+            text: 'Honiara',
+            correct: true
+        },
+        {
+            text: 'Gizo',
+            correct: false
+        },
+        {
+            text: 'Auki',
+            correct: false
+        },
+        {
+            text: 'Noro',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇫🇲 Micronesia',
+    answers: [{
+            text: 'Tofol',
+            correct: false
+        },
+        {
+            text: 'Palikir',
+            correct: true
+        },
+        {
+            text: 'Colonia',
+            correct: false
+        },
+        {
+            text: 'Tafunsak',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇻🇺 Vanuatu',
+    answers: [{
+            text: 'Sola',
+            correct: false
+        },
+        {
+            text: 'Port Vila',
+            correct: true
+        },
+        {
+            text: 'Norsup',
+            correct: false
+        },
+        {
+            text: 'Lenakel',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇼🇸 Samoa',
+    answers: [{
+            text: 'Vaiusu',
+            correct: false
+        },
+        {
+            text: 'Apia',
+            correct: true
+        },
+        {
+            text: 'Afega',
+            correct: false
+        },
+        {
+            text: 'Siusega',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇰🇮 Kiribati',
+    answers: [{
+            text: 'Eita',
+            correct: false
+        },
+        {
+            text: 'Tarawa',
+            correct: true
+        },
+        {
+            text: 'Banana',
+            correct: false
+        },
+        {
+            text: 'Temwaiku',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇹🇴 Tonga',
+    answers: [{
+            text: 'Neiafu',
+            correct: false
+        },
+        {
+            text: 'Houma',
+            correct: false
+        },
+        {
+            text: "Nuku'alofa",
+            correct: true
+        },
+        {
+            text: 'Hihifo',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇲🇭 Marshall Islands',
+    answers: [{
+            text: 'Laura',
+            correct: false
+        },
+        {
+            text: 'Rairok',
+            correct: false
+        },
+        {
+            text: "Majuro",
+            correct: true
+        },
+        {
+            text: 'Ebeye',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇵🇼 Palau',
+    answers: [{
+            text: 'Koror',
+            correct: false
+        },
+        {
+            text: 'Meyungs',
+            correct: false
+        },
+        {
+            text: "Ngerulmud",
+            correct: true
+        },
+        {
+            text: 'Ollei',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇹🇻 Tuvalu',
+    answers: [{
+            text: 'Senala',
+            correct: false
+        },
+        {
+            text: 'Fangaua',
+            correct: false
+        },
+        {
+            text: "Funafuti",
+            correct: true
+        },
+        {
+            text: 'Tanrake',
+            correct: false
+        }
+    ]
+}, 
+{
+    country: '🇳🇷 Nauru',
+    answers: [{
+            text: 'Aiwo',
+            correct: false
+        },
+        {
+            text: 'Meneng',
+            correct: false
+        },
+        {
+            text: "Yaren",
+            correct: true
+        },
+        {
+            text: 'Tanrake',
+            correct: false
+        }
+    ]
+}, 
+];
 
 /*Europe*/
 let europeQuestions = [{

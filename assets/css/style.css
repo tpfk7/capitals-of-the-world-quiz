@@ -129,6 +129,16 @@ a {
     text-decoration:none;
 }
 
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    flex-direction: column;
+    padding-right: 10px;
+    /* align-items: center; */
+    font-size:1.5rem;
+}
 
 
 @media only screen and (max-width: 768px){
@@ -165,8 +175,8 @@ a {
         text-align: center;
     }
     p{
-        font-size: 1.5rem;
-        padding-left: 10px;
+        font-size: 1.2rem;
+        padding-left: 20px;
         text-align: center;
     }
     .start{
@@ -174,9 +184,11 @@ a {
     }
 }
 
-    /* @media only screen and (max-width: 500px){
-        .start{
-            margin: 5px 18vw
-            
+    @media only screen and (max-width: 395px){
+        li{
+            font-size: 1rem;
         }
-} */
+        
+
+
+}

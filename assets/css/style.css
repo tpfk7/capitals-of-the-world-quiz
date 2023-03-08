@@ -135,9 +135,8 @@ ul {
     text-align: justify;
     text-justify: inter-word;
     flex-direction: column;
-    padding-right: 10px;
-    /* align-items: center; */
-    font-size:1.5rem;
+    padding-right: 20px;
+    font-size:1.3rem;
 }
 
 

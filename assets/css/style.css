@@ -11,17 +11,17 @@ body {
     margin: 0;
     display: flex;
     font-family: 'Exo 2', sans-serif;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
     background-image: url("../images/background.gif");
-    overflow-x:hidden ;
 }
 
 /* Add card effect to menu. */
 .container {
+    margin: 2em auto;
     text-align: center;
     width: 800px;
     max-width: 80%;
@@ -67,6 +67,7 @@ h2 {
 }
 
 h3 {
+    margin: 0 auto;
     font-size: 2rem;
     text-align: center;
 }
@@ -92,6 +93,10 @@ p {
 .continent-btn,
 .next-btn {
     font-weight: bold;
+}
+
+#restart-btn {
+    margin: 0.5em auto;
 }
 
 .controls {
@@ -154,12 +159,11 @@ ul {
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-size: 2rem;
     color: white;
 }
 
-.home-btn a i {
-    margin: 1em 0;
+.home-btn i {
+    font-size: 2rem;
 }
 
 .btn-next {

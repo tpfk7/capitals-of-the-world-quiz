@@ -49,12 +49,12 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Samsung Galaxy S9 (DevTools) | ![screenshot](/documentation/responsive/GalaxyS9.png) | Works as expected |
+| Samsung Galaxy S9 (DevTools) | ![screenshot](/documentation/responsive/galaxys9.png) | Works as expected |
 | Ipad(DevTools) | ![screenshot](/documentation/responsive/ipad.png) | Works as expected |
 | Desktop | ![screenshot](/documentation/responsive/responsive-desktop.png) | Works as expected |
 | Ipad pro (DevTools) | ![screenshot](/documentation/responsive/ipad-pro.png) | Works as expected |
 | Iphone x(DevTools) | ![screenshot](/documentation/responsive/iphonex.png) | Works as expected |
-| Samsung Galaxy A52 | ![screenshot](/documentation/responsive/SamsungGalaxyA52.jpg) | Works as expected |
+| Samsung Galaxy A52 | ![screenshot](/documentation/responsive/samsunggalaxya52.jpg) | Works as expected |
 
 
 ## Lighthouse Audit

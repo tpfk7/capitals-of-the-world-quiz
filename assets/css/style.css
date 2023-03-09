@@ -50,6 +50,7 @@ body {
     text-decoration: none;
 }
 
+/* Add styling to h tags */
 h1{
     font-size: 4rem;
     margin-bottom: 3rem;
@@ -71,7 +72,7 @@ p{
     text-align: center;
 }
 
-
+/* Add effects to buttons */
 .btn:hover{
     transform: scale(1.02);
 }
@@ -98,6 +99,7 @@ background-color: red;
     display: none;
 }
 
+/* Add styling to start button */
 .start{
     background-color: black;
     border: 2px solid black;
@@ -129,6 +131,7 @@ a {
     text-decoration:none;
 }
 
+/* Adds styling to list on main page */
 ul {
     display: flex;
     justify-content: center;
@@ -139,7 +142,7 @@ ul {
     font-size:1.3rem;
 }
 
-
+/* For mobile devices */
 @media only screen and (max-width: 768px){
     .container{
         max-width: 80%;
@@ -182,7 +185,7 @@ ul {
         font-size:1.5rem;
     }
 }
-
+/* Add font-size to list on main page */
     @media only screen and (max-width: 395px){
         li{
             font-size: 1rem;

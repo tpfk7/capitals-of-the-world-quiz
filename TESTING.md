@@ -10,7 +10,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftpfk7.github.io%2Fcapitals-of-the-world-quiz%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
+| Home | [W3C](https://validator.w3.org/nu/#textarea) | ![screenshot](/documentation/testing/html/index.png) | No errors found |
 | Game | [W3C](https://validator.w3.org/nu/#textarea) | ![screenshot](/documentation/testing/html/game.png) | Section lacks header h2-h6 warning |
 
 

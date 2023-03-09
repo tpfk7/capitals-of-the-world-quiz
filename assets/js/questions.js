@@ -3888,7 +3888,7 @@ let europeQuestions = [{
                 correct: false
             },
             {
-                text: 'San Marino city',
+                text: 'San Marino City',
                 correct: true
             }
         ]

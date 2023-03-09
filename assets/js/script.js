@@ -5,7 +5,6 @@ const restartButton = document.getElementById('restart-btn');
 const questionContainerElement = document.getElementById('question-container');
 const country = document.getElementById('country');
 const answerButtonsElement = document.getElementById('answer-buttons');
-const mainTitle = document.getElementById('main-title');
 let time = 100;
 const countdownEl = document.getElementById('countdown-timer');
 let score = 0;
@@ -147,11 +146,3 @@ function timeOver(){
     nextButton.classList.add('hide');
     restartButton.classList.remove('hide');
 }
-
-// // Change page to gameover
-// // The following stackoverflow was used
-// //  https://stackoverflow.com/questions/52627142/how-can-i-automatically-change-a-page-in-javascript
-
-// function changePage(){
-//     window.open(index.html);
-// }

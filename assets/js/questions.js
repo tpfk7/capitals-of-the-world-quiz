@@ -2805,7 +2805,7 @@ let samericaQuestions = [{
             }
         ]
     },
-]
+];
 
 /*Oceania*/
 let oceania = [

@@ -146,14 +146,10 @@ Repeat for any addition wireframe pages you have.
 
 ## Tools & Technologies Used
 
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
@@ -212,9 +208,9 @@ You can fork this repository by using the following steps:
 ## Credits
 
 To create the quiz I used a variety of youtube tutorials. The two main tutorials I referenced were:
-https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified,
 
-https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign
+- [WebDevSimplified](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified)
+- [BrianDesign](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign)
 
 ### Content
 
@@ -222,8 +218,6 @@ https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign
 | --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS  |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Youtube](https://www.youtube.com/watch?v=riDzcEQbX6k&ab_channel=WebDevSimplified) | entire site | quiz |
 | [Youtube](https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign) | entire site | quiz |
@@ -233,7 +227,6 @@ https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-
 | [Storyblocks](https://www.storyblocks.com/) | entire site | background gif | site for royalty free images and videos|
 | [Emojipedia](https://emojipedia.org/flags/) | all questions | image | flag emojis used for questions|
 | [Worldometer](https://www.worldometers.info/geography/alphabetical-list-of-countries/) | all questions | question info | site that lists all the countries of the world|

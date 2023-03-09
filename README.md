@@ -235,11 +235,15 @@ https://www.youtube.com/watch?v=f4fB9Xg2JEY&ab_channel=BrianDesign
 | --- | --- | --- | --- |
 
 | [Storyblocks](https://www.storyblocks.com/) | entire site | background gif | site for royalty free images and videos|
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Emojipedia](https://emojipedia.org/flags/) | all questions | image | flag emojis used for questions|
+| [Worldometer](https://www.worldometers.info/geography/alphabetical-list-of-countries/) | all questions | question info | site that lists all the countries of the world|
+| [WorldCapitalCities](hhttps://geographyfieldwork.com/WorldCapitalCities.htm/) | all questions | question info | site that lists all the capitals of the world|
+
+
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson ](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank [Chris Quin](https://github.com/10xoxr)for their support in the master classes.
+- I would like to thank [Chris Quin ](https://github.com/10xoxr)for their support in the master classes.

@@ -40,7 +40,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | --- | --- | --- |
 | Chrome | ![screenshot](/documentation/testing/browsers/chrome.png) | Works as expected |
 | Firefox | ![screenshot](/documentation/testing/browsers/firefox.png) | Works as expected |
-| Safari | ![screenshot](/documentation/testing/browsers/Safari.png) | Works as expected |
+| Safari | ![screenshot](/documentation/testing/browsers/safari.png) | Works as expected |
 
 
 ## Responsiveness

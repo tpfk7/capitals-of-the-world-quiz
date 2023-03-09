@@ -59,6 +59,7 @@ function startGame() {
     setNextQuestion();
 }
 
+/* Sets the next question */
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);

@@ -1469,7 +1469,7 @@ let africaQuestions = [{
                 correct: false
             },
             {
-                text: 'N Djamena',
+                text: "N'Djamena",
                 correct: true
             }
         ]
@@ -2093,7 +2093,7 @@ let namericaQuestions = [{
                 correct: true
             },
             {
-                text: 'New-York',
+                text: 'New York',
                 correct: false
             },
             {
@@ -2369,7 +2369,7 @@ let namericaQuestions = [{
                 correct: false
             },
             {
-                text: 'Belmopan',
+                text: 'Ecuador',
                 correct: false
             },
             {
@@ -3296,7 +3296,7 @@ let europeQuestions = [{
     {
         country: ' 🇷🇴 Romania',
         answers: [{
-                text: 'Warsaw',
+                text: 'Bucharest',
                 correct: true
             },
             {

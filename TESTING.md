@@ -101,3 +101,4 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ## Unfixed Bugs
 
 - When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
+- The flag emojis taken from 'emojipedia' do not render correctly on windows machines. This is a known bug.

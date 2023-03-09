@@ -56,6 +56,7 @@ function startGame() {
     currentQuestionIndex = 0;
     questionContainerElement.classList.remove('hide');
     scoreContainer.classList.remove('hide');
+    document.getElementById('score-counter').innerText = `${score} / ${shuffledQuestions.length}`;
     setNextQuestion();
 }
 
@@ -111,7 +112,7 @@ function selectAnswer(e) {
 
     } else {
         nextButton.classList.remove('hide');
-    } 
+    }
 }
 
 /* Changes colour of question to display answers */
@@ -134,7 +135,7 @@ function clearStatusClass(element) {
 /* Countdown timer for quiz */
 function updateCountdown() {
     timerInterval = setInterval(() => {
-        countdownEl.innerHTML = time < 60 ?  + time : time;
+        countdownEl.innerHTML = time < 60 ? +time : time;
         if (time <= 0) {
             timeOver();
         } else {
@@ -142,7 +143,8 @@ function updateCountdown() {
         }
     }, 1000);
 }
-function timeOver(){
+
+function timeOver() {
     clearInterval(timerInterval);
     questionContainerElement.classList.add('hide');
     nextButton.classList.add('hide');

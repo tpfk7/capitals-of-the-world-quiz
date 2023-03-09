@@ -503,26 +503,6 @@ const asiaQuestions = [{
         ]
     },
     {
-        country: '🇰🇭 Cambodia',
-        answers: [{
-                text: 'Samraong',
-                correct: false
-            },
-            {
-                text: 'Poipet',
-                correct: false
-            },
-            {
-                text: 'Phnom Penh',
-                correct: true
-            },
-            {
-                text: 'Pursat',
-                correct: false
-            }
-        ]
-    },
-    {
         country: '🇯🇴 Jordan',
         answers: [{
                 text: 'Amman',
@@ -1290,26 +1270,6 @@ let africaQuestions = [{
             },
             {
                 text: 'Edea',
-                correct: false
-            }
-        ]
-    },
-    {
-        country: '🇨🇮 Ivory Coast',
-        answers: [{
-                text: 'Man',
-                correct: false
-            },
-            {
-                text: 'Abidjan',
-                correct: false
-            },
-            {
-                text: 'Yamoussoukro',
-                correct: true
-            },
-            {
-                text: 'Daloa',
                 correct: false
             }
         ]
@@ -2546,26 +2506,6 @@ let samericaQuestions = [{
         ]
     },
     {
-        country: '🇧🇷 Brazil',
-        answers: [{
-                text: 'Rio de Janeiro',
-                correct: false
-            },
-            {
-                text: 'Salvador',
-                correct: false
-            },
-            {
-                text: 'Manaus',
-                correct: false
-            },
-            {
-                text: 'Brasília',
-                correct: true
-            }
-        ]
-    },
-    {
         country: '🇨🇴 Colombia',
         answers: [{
                 text: 'Cali',
@@ -3113,26 +3053,6 @@ let europeQuestions = [{
         ]
     },
 
-    {
-        country: ' 🇩🇪 Germany',
-        answers: [{
-                text: 'Berlin',
-                correct: true
-            },
-            {
-                text: 'Munich',
-                correct: false
-            },
-            {
-                text: 'Madrid',
-                correct: false
-            },
-            {
-                text: 'Stockholm',
-                correct: false
-            }
-        ]
-    },
     {
         country: ' 🇩🇪 Germany',
         answers: [{

@@ -1895,7 +1895,7 @@ let africaQuestions = [{
         ]
     },
     {
-        country: '🇬🇶 Equatorial-Guinea',
+        country: '🇬🇶 Equatorial Guinea',
         answers: [{
                 text: 'Cogo',
                 correct: false
@@ -2149,7 +2149,7 @@ let namericaQuestions = [{
                 correct: false
             },
             {
-                text: 'Port-au-Prince',
+                text: 'Port au Prince',
                 correct: true
             },
             {
@@ -2157,7 +2157,7 @@ let namericaQuestions = [{
                 correct: false
             },
             {
-                text: 'Port-de-Paix',
+                text: 'Port de Paix',
                 correct: false
             }
         ]
@@ -3868,7 +3868,7 @@ let europeQuestions = [{
                 correct: false
             },
             {
-                text: 'Luxembourg-City',
+                text: 'Luxembourg City',
                 correct: true
             }
         ]

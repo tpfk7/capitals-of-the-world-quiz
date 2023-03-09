@@ -66,7 +66,7 @@ function setNextQuestion() {
 
 }
 
-
+/* Adds answer buttons to questions */
 function showQuestion(question) {
     country.innerText = question.country;
     question.answers.forEach(answer => {
@@ -90,7 +90,8 @@ function resetState() {
     }
 }
 
-
+// Adds a score counter to quiz
+// Checks if timer or questions have run out
 function selectAnswer(e) {
 
     const selectedButton = e.target;
@@ -100,7 +101,6 @@ function selectAnswer(e) {
         document.getElementById('score-counter').innerText = `${score} / ${shuffledQuestions.length}`;
 
     }
-
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
     });
@@ -114,6 +114,7 @@ function selectAnswer(e) {
     } 
 }
 
+/* Changes colour of question to display answers */
 function setStatusClass(element, correct) {
     clearStatusClass(element);
 
@@ -123,7 +124,7 @@ function setStatusClass(element, correct) {
         element.classList.add('wrong');
     }
 }
-
+/* Changes colour of question back to neutral */
 function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');

@@ -3434,26 +3434,6 @@ let europeQuestions = [{
         ]
     },
     {
-        country: ' 🇷🇸 Serbia',
-        answers: [{
-                text: 'Novi Sad',
-                correct: false
-            },
-            {
-                text: 'Belgrade',
-                correct: true
-            },
-            {
-                text: 'Subotica',
-                correct: false
-            },
-            {
-                text: 'Kragujevac',
-                correct: false
-            }
-        ]
-    },
-    {
         country: ' 🇨🇭 Switzerland',
         answers: [{
                 text: 'Geneva',

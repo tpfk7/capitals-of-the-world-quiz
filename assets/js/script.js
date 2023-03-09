@@ -83,7 +83,7 @@ function showQuestion(question) {
         answerButtonsElement.appendChild(button);
     });
 }
-
+/* Reset buttons for next round */
 function resetState() {
     nextButton.classList.add('hide');
     while (answerButtonsElement.firstChild) {
@@ -143,7 +143,7 @@ function updateCountdown() {
         }
     }, 1000);
 }
-
+/* Gameover function to reset */
 function timeOver() {
     clearInterval(timerInterval);
     questionContainerElement.classList.add('hide');

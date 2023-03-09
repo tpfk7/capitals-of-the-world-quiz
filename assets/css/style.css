@@ -17,6 +17,7 @@ body {
     align-items: center;
     background-color: aliceblue;
     background-image: url("../images/background.gif");
+    overflow-x:hidden ;
 }
 
 /* Add card effect to menu. */

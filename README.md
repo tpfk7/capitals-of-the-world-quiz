@@ -58,33 +58,33 @@ I've used the software pixelmator pro to design my site wireframes.
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-index.jpg) |
-| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-index.png) |
-| Desktop | ![screenshot](/documentation/wireframe/desktop/index-desktop.png) |
+| Mobile | ![screenshot](documentation/wireframe/mobile/mobile-index.jpg) |
+| Tablet | ![screenshot](documentation/wireframe/tablet/tablet-index.png) |
+| Desktop | ![screenshot](documentation/wireframe/desktop/index-desktop.png) |
 
 ### Continent Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-continent.jpg) |
-| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-continent.png) |
-| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-continent.png) |
+| Mobile | ![screenshot](documentation/wireframe/mobile/mobile-continent.jpg) |
+| Tablet | ![screenshot](documentation/wireframe/tablet/tablet-continent.png) |
+| Desktop | ![screenshot](documentation/wireframe/desktop/desktop-continent.png) |
 
 ### Question Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-questions.jpg) |
-| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-question.png) |
-| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-question%20copy.png) |
+| Mobile | ![screenshot](documentation/wireframe/mobile/mobile-questions.jpg) |
+| Tablet | ![screenshot](documentation/wireframe/tablet/tablet-question.png) |
+| Desktop | ![screenshot](documentation/wireframe/desktop/desktop-question%20copy.png) |
 
 ### Score Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](/documentation/wireframe/mobile/mobile-score.jpg) |
-| Tablet | ![screenshot](/documentation/wireframe/tablet/tablet-score.png) |
-| Desktop | ![screenshot](/documentation/wireframe/desktop/desktop-score.png) |
+| Mobile | ![screenshot](documentation/wireframe/mobile/mobile-score.jpg) |
+| Tablet | ![screenshot](documentation/wireframe/tablet/tablet-score.png) |
+| Desktop | ![screenshot](documentation/wireframe/desktop/desktop-score.png) |
 
 Repeat for any addition wireframe pages you have.
 
@@ -97,44 +97,44 @@ Repeat for any addition wireframe pages you have.
 
     - The site has a clear and prominent start button so the user can choose when they want the game to start.
 
-![screenshot](/documentation/feature/start-button.png)
+![screenshot](documentation/feature/start-button.png)
 
 - **Feature #2**
 
     - The site has clear buttons for each continent so the user can choose what set of countries they want to be tested on.
 
-![screenshot](/documentation/feature/continent.png)
+![screenshot](documentation/feature/continent.png)
 
 - **Feature #3**
 
     - The site has clear buttons for the user to choose their answer. The buttons also change colour depending on what answer is chosen to make it obvious if the correct answer was chosen or not.
 
-    ![screenshot](/documentation/feature/question-color.png)
+    ![screenshot](documentation/feature/question-color.png)
 
 - **Feature #3**
 
     - Once the game has started a score counter at the bottom will display how many questions the user got right.
 
-    ![screenshot](/documentation/feature/score-counter.png)
+    ![screenshot](documentation/feature/score-counter.png)
 
     - **Feature #4**
 
     - A timer above the answers shows the user how much time is remaining.
 
-![screenshot](/documentation/feature/timer.png)
+![screenshot](documentation/feature/timer.png)
 
 - **Feature #5**
 
     - A home icon under the question can bring the user back to home page.
 
-    ![screenshot](/documentation/feature/score-counter.png)
+    ![screenshot](documentation/feature/score-counter.png)
 
 
 - **Feature #5**
 
     - A restart button allows the user to restart the quiz.
 
-    ![screenshot](/documentation/feature/restart.png)
+    ![screenshot](documentation/feature/restart.png)
 
 ### Future Features
 
